@@ -1,5 +1,5 @@
 # newtemplate
-<a href="https://wkra.github.io/newtemplate/">DEMO</a>
+<a href="https://wkra.github.io/templateOne/">DEMO</a>
 
 Working in progress.
 
