@@ -57,20 +57,12 @@ document.addEventListener("DOMContentLoaded", function () {
   $('.footerMedia .icons a').each(function(i){$(this).load('svg/' + $(this).attr('icon') + '.svg'); i++});
   
   //tabs button
-/*  
-  $('#tabs .btn').each(function(index){
-    $(this).on("click", function(){
-      $('#tabs article').load($(this).attr('file'));
-    });
-    
-  });
-  */
   
     $('#tabs .btn').each(function(index){
     $(this).on("click", function(){
       var $this = $(this);
       $('#tabs article').animate({opacity: 0}, 500, function(){
-        $('#tabs article').load($($this).attr('file')).animate({opacity: 1},500)
+        $('#tabs article').load($($this).data('file')).animate({opacity: 1},500)
       })
     });
     
@@ -78,7 +70,7 @@ document.addEventListener("DOMContentLoaded", function () {
   
   // load first tab
   
-    $('#tabs article').load($('#tabs .btn:first').attr('file'));
+    $('#tabs article').load($('#tabs .btn:first').data('file'));
 
   
 });
