@@ -1,4 +1,4 @@
-# newtemplate
+# templateOne
 <a href="https://wkra.github.io/templateOne/">DEMO</a>
 
 Working in progress.
