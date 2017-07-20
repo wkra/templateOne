@@ -1,9 +1,7 @@
 # templateOne
 <a href="https://wkra.github.io/templateOne/">DEMO</a>
 
-Working in progress.
-
-New template using:
+### New template using:
 - javascript
 - jquery
 - bootstrap
